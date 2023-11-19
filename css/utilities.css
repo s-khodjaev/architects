@@ -1,0 +1,83 @@
+.text-main {
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+/* Button */
+
+.btn {
+  display: inline-block;
+  background-color: #ddd;
+  color: #333;
+  padding: 5px 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-dark {
+  background: #333;
+  color: #fff;
+  padding: 10px 30px;
+  font-size: 0.87rem;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 3px;
+}
+
+.section-title {
+  font-weight: 400;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+  color: #454545;
+}
+
+.section-text {
+  margin: 20px 0;
+  color: #797979;
+}
+
+/* Flex Grid */
+
+.flex-grid .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+
+.flex-grid .row .column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 15px 6px;
+}
+
+/* Flex Items */
+
+.flex-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-items .flex-item {
+  padding: 10px;
+  line-height: 1.8;
+}
+
+.flex-items .flex-item h4 {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.flex-items .flex-item .position {
+  font-size: 1rem;
+  color: #797979;
+}
+
+.flex-items .flex-item img {
+  filter: grayscale(80%);
+}
+
+.flex-items .flex-item .btn {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}

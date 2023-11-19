@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.7;
+  background-color: #fff;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 10px 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 40px auto;
+}
+
+/* Header */
+
+.navbar {
+  background-color: #f4f4f4;
+  color: #333;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+  padding: 0 30px;
+  z-index: 10;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar a {
+  color: #333;
+  padding: 10px 20px;
+  margin: 0px 5px;
+}
+
+.navbar .logo {
+  font-size: 18px;
+  letter-spacing: 3px;
+}
+
+.hero .showcase {
+  background: url('../img/showcase.jpeg') no-repeat center center/cover;
+  min-height: 600px;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  position: relative;
+}
+
+.hero .showcase::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hero .showcase .showcase-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.hero .showcase .showcase-content .text-bg {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+
+.hero .showcase .showcase-content > * {
+  z-index: 2;
+}
+
+/* Contact */
+
+.contact-form {
+  margin: 10px 0;
+}
+
+.contact-form .form-control {
+  margin-bottom: 20px;
+}
+
+.contact-form input {
+  width: 100%;
+  padding: 4px;
+  height: 40px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-indent: 8px;
+  font-size: 15px;
+}
+
+.contact-img {
+  padding-top: 40px;
+}
+
+/* Footer */
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: underline;
+}
